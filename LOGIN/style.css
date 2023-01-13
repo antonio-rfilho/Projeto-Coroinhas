@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: beige;
+}
+
+.container{
+    width: 450px;
+    background-color: rgb(243, 147, 112);
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateY(20%);
+    flex-direction: column;
+}
+
+.container h2{
+    margin: 2rem 0;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: beige;
+    border-bottom: 1px solid beige;
+    font-size: 2rem;
+}
+
+.form{
+    margin-bottom: 2rem;
+}
+
+.form label, input{
+    display: block;
+    width: 100%;
+}
+
+.form label{
+    margin-bottom: 2px;
+    color: beige;
+    font-size: 18px;
+}
+
+.form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.form a{
+    width: 100%;
+    background: beige;
+    height: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link a{
+    color: beige;
+    text-decoration: none;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
